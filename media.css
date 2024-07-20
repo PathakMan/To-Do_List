@@ -1,0 +1,33 @@
+@media screen and (max-width: 500px) {
+  
+    .todo-list {
+    width: 90%;
+    padding: 10px 5px;
+    margin-top: 25px;
+    height: 50vh;
+    border: 1px solid #fff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+    .todo-list{
+        height: 60vh;
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
+    .todo-list{
+        height: 65vh;
+        width: 85%;
+    }
+  }
+
+  @media (max-height: 600px) and (max-width: 1024px) {
+    .todo-list{
+        height: 60vh;
+        width: 85%;
+    }
+  }
